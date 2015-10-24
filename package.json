@@ -1,0 +1,27 @@
+{
+  "name": "node-skel",
+  "version": "1.0.0",
+  "description": "This is a simple skeleton for Node.js projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test",
+    "grunt": "node_modules/grunt-cli/bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badrequest400/node-skel.git"
+  },
+  "author": "Balazs Cseh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badrequest400/node-skel/issues"
+  },
+  "homepage": "https://github.com/badrequest400/node-skel",
+  "dependencies": {
+    "bower": "latest"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest"
+  }
+}
